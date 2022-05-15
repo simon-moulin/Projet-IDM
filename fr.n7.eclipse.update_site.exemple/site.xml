@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/fr.n7.eclipse.feature.exemple_1.0.0.202205151554.jar" id="fr.n7.eclipse.feature.exemple" version="1.0.0.202205151554">
+      <category name="N7 exemple"/>
+   </feature>
+   <feature url="features/fr.n7.feature.gls_1.0.0.202205151554.jar" id="fr.n7.feature.gls" version="1.0.0.202205151554">
+      <category name="N7 GLS Feature"/>
+   </feature>
+   <category-def name="N7 exemple" label="N7 exemple"/>
+   <category-def name="N7 GLS Feature" label="N7 GLS Feature"/>
+</site>
