@@ -9,17 +9,17 @@
   <processElements
       xsi:type="simplepdl:WorkDefinition"
       linksToSuccessors="//@processElements.2"
-      name="WD00"/>
+      name="WD0"/>
   <processElements
       xsi:type="simplepdl:WorkDefinition"
       linksToPredecessors="//@processElements.2"
-      name="WD01"/>
+      name="WD1"/>
   <processElements
       xsi:type="simplepdl:WorkSequence"
       predecessor="//@processElements.0"
       successor="//@processElements.1"/>
   <processElements
       xsi:type="simplepdl:Resource"
-      name="Ressource0"
+      name="R0"
       nbAvailableResources="1"/>
 </simplepdl:Process>
