@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="fr.n7.petriNet.feature.toTina"
+      id="fr.n7.petrinet.feature.toTina"
       label="ToTina"
       version="1.0.0.qualifier">
 

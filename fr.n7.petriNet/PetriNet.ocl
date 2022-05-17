@@ -43,15 +43,15 @@ context Place
 inv hasPositiveMarking('Place marking should be positive: ' + self.name):
 	self.marking >= 0
 	
-context Noeud
+context Node
 inv validNoeudName('Invalid Noeud name: ' + self.name):
 	self.name.matches('[A-Za-z_][A-Za-z0-9_]*')
 	
-context Noeud
+context Node
 inv uniqueNoeudName('Noeud name ' + self.name + ' already exists'):
 	self.petrinet().petriElements
-		->select(e | e.oclIsKindOf(Noeud))
-		->collect(e | e.oclAsType(Noeud))
+		->select(e | e.oclIsKindOf(Node))
+		->collect(e | e.oclAsType(Node))
 		->select(e | self.name = e.name)
 		->size() = 1
 
