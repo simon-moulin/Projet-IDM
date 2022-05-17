@@ -4,7 +4,7 @@
     <semanticResources>developpement.simplepdl</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_lVHQQNXVEeyj-JsOaP06jg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/fr.n7.simplepdl.design/description/simplepdl.odesign#//@ownedViewpoints[name='simplepdlViewpoint']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_ttjh4NXVEeyj-JsOaP06jg" name="ProcessDiagram" repPath="#_ttYiwNXVEeyj-JsOaP06jg" changeId="8bd8b1de-a3aa-4b81-b107-dbbd720f48ed">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_ttjh4NXVEeyj-JsOaP06jg" name="ProcessDiagram" repPath="#_ttYiwNXVEeyj-JsOaP06jg" changeId="bcdb1bed-999f-43e3-980f-93e5cbd268b4">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.n7.simplepdl.design/description/simplepdl.odesign#//@ownedViewpoints[name='simplepdlViewpoint']/@ownedRepresentations[name='ProcessDiagram']"/>
         <target xmi:type="simplepdl:Process" href="developpement.simplepdl#/"/>
       </ownedRepresentationDescriptors>
@@ -56,6 +56,28 @@
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_Q0rN6NXcEeyj-JsOaP06jg" fontName=".AppleSystemUIFont"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q0rN6dXcEeyj-JsOaP06jg" x="480" y="84" width="137" height="128"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_MerPQNXiEeyj-JsOaP06jg" type="2001" element="_MeozANXiEeyj-JsOaP06jg">
+          <children xmi:type="notation:Node" xmi:id="_MerPQ9XiEeyj-JsOaP06jg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_MerPRNXiEeyj-JsOaP06jg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_MerPRdXiEeyj-JsOaP06jg" type="3003" element="_MeozAdXiEeyj-JsOaP06jg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_MerPRtXiEeyj-JsOaP06jg" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MerPR9XiEeyj-JsOaP06jg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_MerPQdXiEeyj-JsOaP06jg" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MerPQtXiEeyj-JsOaP06jg" x="774" y="196" width="129" height="121"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_VSNhcNXiEeyj-JsOaP06jg" type="2001" element="_VSKeINXiEeyj-JsOaP06jg">
+          <children xmi:type="notation:Node" xmi:id="_VSNhc9XiEeyj-JsOaP06jg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_VSNhdNXiEeyj-JsOaP06jg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_VSNhddXiEeyj-JsOaP06jg" type="3013" element="_VSKeIdXiEeyj-JsOaP06jg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_VSNhdtXiEeyj-JsOaP06jg" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VSNhd9XiEeyj-JsOaP06jg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_VSNhcdXiEeyj-JsOaP06jg" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VSNhctXiEeyj-JsOaP06jg" x="776" y="48" width="125" height="117"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_tt1OstXVEeyj-JsOaP06jg"/>
         <edges xmi:type="notation:Edge" xmi:id="_vm1TgNXcEeyj-JsOaP06jg" type="4001" element="_vmt-wNXcEeyj-JsOaP06jg" source="_Q0oxoNXcEeyj-JsOaP06jg" target="_Q0qm0NXcEeyj-JsOaP06jg">
@@ -231,6 +253,28 @@
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_0O4AM9XdEeyj-JsOaP06jg" labelSize="12"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.n7.simplepdl.design/description/simplepdl.odesign#//@ownedViewpoints[name='simplepdlViewpoint']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@edgeMappings[name='WSEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_MeozANXiEeyj-JsOaP06jg" name="Test Ressource" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="simplepdl:Resource" href="developpement.simplepdl#//@processElements.9"/>
+      <semanticElements xmi:type="simplepdl:Resource" href="developpement.simplepdl#//@processElements.9"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_MeozAdXiEeyj-JsOaP06jg" labelSize="12" labelPosition="node" color="204,242,166">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/fr.n7.simplepdl.design/description/simplepdl.odesign#//@ownedViewpoints[name='simplepdlViewpoint']/@ownedRepresentations[name='ProcessDiagram']/@additionalLayers[name='Ressource']/@nodeMappings[name='RENode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.n7.simplepdl.design/description/simplepdl.odesign#//@ownedViewpoints[name='simplepdlViewpoint']/@ownedRepresentations[name='ProcessDiagram']/@additionalLayers[name='Ressource']/@nodeMappings[name='RENode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_VSKeINXiEeyj-JsOaP06jg" name="Test Guidance" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="simplepdl:Guidance" href="developpement.simplepdl#//@processElements.10"/>
+      <semanticElements xmi:type="simplepdl:Guidance" href="developpement.simplepdl#//@processElements.10"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Note" uid="_VSKeIdXiEeyj-JsOaP06jg" labelSize="12" labelPosition="node" color="255,245,181">
+        <description xmi:type="style:NoteDescription" href="platform:/resource/fr.n7.simplepdl.design/description/simplepdl.odesign#//@ownedViewpoints[name='simplepdlViewpoint']/@ownedRepresentations[name='ProcessDiagram']/@additionalLayers[name='Guidance']/@nodeMappings[name='GDNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.n7.simplepdl.design/description/simplepdl.odesign#//@ownedViewpoints[name='simplepdlViewpoint']/@ownedRepresentations[name='ProcessDiagram']/@additionalLayers[name='Guidance']/@nodeMappings[name='GDNode']"/>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.n7.simplepdl.design/description/simplepdl.odesign#//@ownedViewpoints[name='simplepdlViewpoint']/@ownedRepresentations[name='ProcessDiagram']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_ttepYNXVEeyj-JsOaP06jg"/>
