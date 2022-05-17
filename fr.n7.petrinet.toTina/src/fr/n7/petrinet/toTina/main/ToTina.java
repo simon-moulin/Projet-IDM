@@ -8,7 +8,7 @@
  * Contributors:
  *     Obeo - initial API and implementation
  *******************************************************************************/
-package fr.n7.petrinet.toTina.main;
+package fr.n7.petriNet.toTina.main;
 
 import java.io.File;
 import java.io.IOException;
@@ -35,7 +35,7 @@ public class ToTina extends AbstractAcceleoGenerator {
      *
      * @generated
      */
-    public static final String MODULE_FILE_NAME = "/fr/n7/petrinet/toTina/main/toTina";
+    public static final String MODULE_FILE_NAME = "/fr/n7/petriNet/toTina/main/toTina";
     
     /**
      * The name of the templates that are to be generated.

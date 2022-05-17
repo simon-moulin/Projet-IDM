@@ -24,14 +24,14 @@
          unpack="false"/>
 
    <plugin
-         id="fr.n7.simplePDL.editor"
+         id="fr.n7.simplePDL.edit"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.n7.simplePDL.edit"
+         id="fr.n7.simplePDL.editor"
          download-size="0"
          install-size="0"
          version="0.0.0"

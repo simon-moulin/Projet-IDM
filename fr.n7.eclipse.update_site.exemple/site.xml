@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/fr.n7.eclipse.feature.exemple_1.0.0.202205151554.jar" id="fr.n7.eclipse.feature.exemple" version="1.0.0.202205151554">
-      <category name="N7 exemple"/>
+   <feature url="features/fr.n7.petriNet.feature.toTina_1.0.0.202205161713.jar" id="fr.n7.petriNet.feature.toTina" version="1.0.0.202205161713">
+      <category name="N7 To Tina"/>
    </feature>
-   <feature url="features/fr.n7.feature.gls_1.0.0.202205151554.jar" id="fr.n7.feature.gls" version="1.0.0.202205151554">
+   <feature url="features/fr.n7.simplePDL.feature.toHTML_1.0.0.202205161721.jar" id="fr.n7.simplePDL.feature.toHTML" version="1.0.0.202205161721">
+      <category name="N7 To HTML"/>
+   </feature>
+   <feature url="features/fr.n7.feature.gls_1.0.0.qualifier.jar" id="fr.n7.feature.gls" version="1.0.0.qualifier">
       <category name="N7 GLS Feature"/>
    </feature>
-   <category-def name="N7 exemple" label="N7 exemple"/>
    <category-def name="N7 GLS Feature" label="N7 GLS Feature"/>
+   <category-def name="N7 To Tina" label="N7 To Tina"/>
+   <category-def name="N7 To HTML" label="N7 To HTML"/>
 </site>

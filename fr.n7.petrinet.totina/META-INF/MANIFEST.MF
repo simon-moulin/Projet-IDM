@@ -1,11 +1,12 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Acceleo Totina Module Runtime Plug-in
-Bundle-SymbolicName: fr.n7.petrinet.totina
+Bundle-Name: Acceleo ToTina Module Runtime Plug-in
+Bundle-SymbolicName: fr.n7.petriNet.toTina
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: fr.n7.petrinet.totina.Activator
+Bundle-Activator: fr.n7.petriNet.toTina.Activator
 Bundle-Vendor: Eclipse Modeling Project
 Require-Bundle: org.eclipse.core.runtime, 
+ org.eclipse.emf.ecore, 
  org.eclipse.emf.ecore,
  org.eclipse.emf.ecore.xmi,
  org.eclipse.ocl,
@@ -18,4 +19,5 @@ Require-Bundle: org.eclipse.core.runtime,
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Bundle-ActivationPolicy: lazy
 Eclipse-LazyStart: true
+Export-Package: fr.n7.petriNet.toTina.main
 

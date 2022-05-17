@@ -5,15 +5,15 @@
       <objectContribution
             adaptable="true"
             objectClass="org.eclipse.core.resources.IFile"
-            nameFilter="*.xmi"
-            id="fr.n7.petrinet.toTina.ui.popupMenus.contribution.IFile">
+            nameFilter="*.*"
+            id="fr.n7.petriNet.toTina.ui.popupMenus.contribution.IFile">
          <menu id="org.eclipse.acceleo.module.menu" label="Acceleo Model to Text" path="additionsAcceleo">
                <groupMarker name="acceleo"/> 
          </menu>
          <action
-               class="fr.n7.petrinet.toTina.ui.popupMenus.AcceleoGenerateToTinaAction"
+               class="fr.n7.petriNet.toTina.ui.popupMenus.AcceleoGenerateToTinaAction"
                enablesFor="+"
-               id="fr.n7.petrinet.toTina.ui.popupMenus.acceleoGenerateToTinaAction"
+               id="fr.n7.petriNet.toTina.ui.popupMenus.acceleoGenerateToTinaAction"
                icon="icons/default.gif"
                label="Generate ToTina"
                menubarPath="org.eclipse.acceleo.module.menu/acceleo"/>

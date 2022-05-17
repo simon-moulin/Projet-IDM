@@ -5,15 +5,12 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="petrinet" lowerBound="1"
         eType="#//PetriNet" eOpposite="#//PetriNet/petriElements"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="PetriNet">
+  <eClassifiers xsi:type="ecore:EClass" name="Node" abstract="true" eSuperTypes="#//PetriElement">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="petriElements" upperBound="-1"
-        eType="#//PetriElement" containment="true" eOpposite="#//PetriElement/petrinet"/>
-  </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Transition" eSuperTypes="#//Noeud"/>
-  <eClassifiers xsi:type="ecore:EClass" name="Place" eSuperTypes="#//Noeud">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="marking" lowerBound="1"
-        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="incoming" upperBound="-1"
+        eType="#//Arc" eOpposite="#//Arc/target"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="outgoing" upperBound="-1"
+        eType="#//Arc" eOpposite="#//Arc/source"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Arc" eSuperTypes="#//PetriElement">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="weight" lowerBound="1"
@@ -21,15 +18,18 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="isReadArc" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean" defaultValueLiteral="false"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="target" lowerBound="1"
-        eType="#//Noeud" eOpposite="#//Noeud/incoming"/>
+        eType="#//Node" eOpposite="#//Node/incoming"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="source" lowerBound="1"
-        eType="#//Noeud" eOpposite="#//Noeud/outgoing"/>
+        eType="#//Node" eOpposite="#//Node/outgoing"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Noeud" abstract="true" eSuperTypes="#//PetriElement">
+  <eClassifiers xsi:type="ecore:EClass" name="Transition" eSuperTypes="#//Node"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Place" eSuperTypes="#//Node">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="marking" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PetriNet">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="incoming" upperBound="-1"
-        eType="#//Arc" eOpposite="#//Arc/target"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="outgoing" upperBound="-1"
-        eType="#//Arc" eOpposite="#//Arc/source"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="petriElements" upperBound="-1"
+        eType="#//PetriElement" containment="true" eOpposite="#//PetriElement/petrinet"/>
   </eClassifiers>
 </ecore:EPackage>

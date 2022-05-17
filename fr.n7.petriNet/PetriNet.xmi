@@ -5,27 +5,28 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:petrinet="http://petrinet"
     xsi:schemaLocation="http://petrinet PetriNet.ecore"
-    name="MonPetritNet">
+    name="MonPetri">
   <petriElements
       xsi:type="petrinet:Place"
       name="P1"
-      outgoing="//@petriElements.2"/>
+      outgoing="//@petriElements.4"/>
+  <petriElements
+      xsi:type="petrinet:Place"
+      name="P2"
+      incoming="//@petriElements.3"/>
   <petriElements
       xsi:type="petrinet:Transition"
       name="T1"
-      incoming="//@petriElements.2"
-      outgoing="//@petriElements.4"/>
+      incoming="//@petriElements.4"
+      outgoing="//@petriElements.3"/>
   <petriElements
       xsi:type="petrinet:Arc"
       weight="1"
       target="//@petriElements.1"
-      source="//@petriElements.0"/>
-  <petriElements
-      xsi:type="petrinet:Place"
-      name="P2"
-      incoming="//@petriElements.4"/>
+      source="//@petriElements.2"/>
   <petriElements
       xsi:type="petrinet:Arc"
-      target="//@petriElements.3"
-      source="//@petriElements.1"/>
+      weight="1"
+      target="//@petriElements.2"
+      source="//@petriElements.0"/>
 </petrinet:PetriNet>

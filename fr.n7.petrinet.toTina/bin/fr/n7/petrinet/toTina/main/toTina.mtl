@@ -4,7 +4,8 @@
 
 [template public petrinetToTina(aPetriNet : PetriNet)]
 [comment @main/]
-[file (aPetriNet.name + '.net', false, 'UTF-8')]
+[file (aPetriNet.name + '.xmi', false, 'UTF-8')]
+net [aPetriNet.name/]
 [let places : OrderedSet(Place) = aPetriNet.getPlaces() ] 
 [for (place : Place | places)]
 pl [place.name/] ([place.marking/])

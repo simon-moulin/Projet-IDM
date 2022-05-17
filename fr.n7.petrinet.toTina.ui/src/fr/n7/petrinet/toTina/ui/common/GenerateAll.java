@@ -8,7 +8,7 @@
  * Contributors:
  *     Obeo - initial API and implementation
  *******************************************************************************/
-package fr.n7.petrinet.toTina.ui.common;
+package fr.n7.petriNet.toTina.ui.common;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -74,9 +74,9 @@ public class GenerateAll {
 		}
 		
 		monitor.subTask("Loading...");
-		fr.n7.petrinet.toTina.main.ToTina gen0 = new fr.n7.petrinet.toTina.main.ToTina(modelURI, targetFolder.getLocation().toFile(), arguments);
+		fr.n7.petriNet.toTina.main.ToTina gen0 = new fr.n7.petriNet.toTina.main.ToTina(modelURI, targetFolder.getLocation().toFile(), arguments);
 		monitor.worked(1);
-		String generationID = org.eclipse.acceleo.engine.utils.AcceleoLaunchingUtil.computeUIProjectID("fr.n7.petrinet.toTina", "fr.n7.petrinet.toTina.main.ToTina", modelURI.toString(), targetFolder.getFullPath().toString(), new ArrayList<String>());
+		String generationID = org.eclipse.acceleo.engine.utils.AcceleoLaunchingUtil.computeUIProjectID("fr.n7.petriNet.toTina", "fr.n7.petriNet.toTina.main.ToTina", modelURI.toString(), targetFolder.getFullPath().toString(), new ArrayList<String>());
 		gen0.setGenerationID(generationID);
 		gen0.doGenerate(BasicMonitor.toMonitor(monitor));
 			

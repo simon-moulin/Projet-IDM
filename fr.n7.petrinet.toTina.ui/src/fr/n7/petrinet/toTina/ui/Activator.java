@@ -8,7 +8,7 @@
  * Contributors:
  *     Obeo - initial API and implementation
  *******************************************************************************/
-package fr.n7.petrinet.toTina.ui;
+package fr.n7.petriNet.toTina.ui;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
@@ -21,7 +21,7 @@ public class Activator extends AbstractUIPlugin {
 	/**
 	 * The plug-in ID.
 	 */
-	public static final String PLUGIN_ID = "fr.n7.petrinet.toTina.ui";
+	public static final String PLUGIN_ID = "fr.n7.petriNet.toTina.ui";
 
 	/**
 	 * The shared instance.

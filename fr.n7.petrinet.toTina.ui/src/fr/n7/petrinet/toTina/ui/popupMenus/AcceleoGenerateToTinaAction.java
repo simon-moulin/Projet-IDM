@@ -8,7 +8,7 @@
  * Contributors:
  *     Obeo - initial API and implementation
  *******************************************************************************/
-package fr.n7.petrinet.toTina.ui.popupMenus;
+package fr.n7.petriNet.toTina.ui.popupMenus;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -28,8 +28,8 @@ import org.eclipse.jface.action.IAction;
 import org.eclipse.jface.operation.IRunnableWithProgress;
 import org.eclipse.jface.viewers.ISelection;
 import org.eclipse.jface.viewers.IStructuredSelection;
-import fr.n7.petrinet.toTina.ui.Activator;
-import fr.n7.petrinet.toTina.ui.common.GenerateAll;
+import fr.n7.petriNet.toTina.ui.Activator;
+import fr.n7.petriNet.toTina.ui.common.GenerateAll;
 import org.eclipse.ui.IActionDelegate;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.actions.ActionDelegate;
