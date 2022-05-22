@@ -17,14 +17,14 @@
    </license>
 
    <plugin
-         id="fr.n7.petriNet.toTina.ui"
+         id="fr.n7.petriNet.toTina"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.n7.petriNet.toTina"
+         id="fr.n7.petriNet.toTina.ui"
          download-size="0"
          install-size="0"
          version="0.0.0"
