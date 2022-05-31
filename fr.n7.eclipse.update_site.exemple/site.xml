@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/fr.n7.simplePDL.feature.toHTML_1.0.0.202205161721.jar" id="fr.n7.simplePDL.feature.toHTML" version="1.0.0.202205161721">
+   <feature url="features/fr.n7.simplePDL.feature.toHTML_1.0.0.202205231050.jar" id="fr.n7.simplePDL.feature.toHTML" version="1.0.0.202205231050">
       <category name="N7 To HTML"/>
    </feature>
-   <feature url="features/fr.n7.feature.gls_1.0.0.202205221521.jar" id="fr.n7.feature.gls" version="1.0.0.202205221521">
+   <feature url="features/fr.n7.feature.gls_1.0.0.202205231050.jar" id="fr.n7.feature.gls" version="1.0.0.202205231050">
       <category name="N7 GLS Feature"/>
    </feature>
-   <feature url="features/fr.n7.simplePDL.xtext_1.0.0.202205171201.jar" id="fr.n7.simplePDL.xtext" version="1.0.0.202205171201">
+   <feature url="features/fr.n7.petrinet.feature.toTina_1.0.0.202205231440.jar" id="fr.n7.petrinet.feature.toTina" version="1.0.0.202205231440">
+      <category name="N7 to Tina"/>
+   </feature>
+   <feature url="features/fr.n7.simplePDL.xtext_1.0.0.202205231050.jar" id="fr.n7.simplePDL.xtext" version="1.0.0.202205231050">
       <category name="N7 Xtext"/>
    </feature>
-   <feature url="features/fr.n7.petrinet.feature.toTina_1.0.0.202205221509.jar" id="fr.n7.petrinet.feature.toTina" version="1.0.0.202205221509">
-      <category name="N7 To Tina"/>
+   <feature url="features/fr.n7.simplepdl.feature.toLTL_1.0.0.202205231050.jar" id="fr.n7.simplepdl.feature.toLTL" version="1.0.0.202205231050">
+      <category name="N7 to LTL"/>
    </feature>
    <category-def name="N7 GLS Feature" label="N7 GLS Feature"/>
    <category-def name="N7 To HTML" label="N7 To HTML"/>
    <category-def name="N7 Xtext" label="N7 Xtext"/>
-   <category-def name="N7 To Tina" label="N7 To Tina"/>
+   <category-def name="N7 to Tina" label="N7 to Tina"/>
+   <category-def name="N7 to LTL" label="N7 to LTL"/>
 </site>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<petrinet:PetriNet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:petrinet="http://petrinet" xsi:schemaLocation="http://petrinet PetriNet.ecore" name="P1">
+<petrinet:PetriNet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:petrinet="http://petrinet" name="P1">
   <petriElements xsi:type="petrinet:Place" name="WD0_ready" outgoing="//@petriElements.6" marking="1"/>
   <petriElements xsi:type="petrinet:Place" name="WD0_running" incoming="//@petriElements.7" outgoing="//@petriElements.9"/>
   <petriElements xsi:type="petrinet:Place" name="WD0_started" incoming="//@petriElements.8" outgoing="//@petriElements.22"/>

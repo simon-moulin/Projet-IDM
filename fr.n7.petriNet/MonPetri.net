@@ -1,0 +1,5 @@
+net MonPetri
+pl P1 (0)
+pl P2 (0)
+
+tr T1 P1 -> P2
